@@ -1,0 +1,21 @@
+table{ 
+    border-collapse: collapse;
+  }
+
+.red, .green, .purple {
+    position: sticky;
+    top: 0px;
+    text-align: left;
+}
+  .red{
+    background-color:red;
+  }
+  
+  .green{
+     background-color:green;
+  }
+  
+  .purple{
+     background-color:purple;
+  }
+  

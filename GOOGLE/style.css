@@ -1,0 +1,14 @@
+:is(section > a)[href*="google"] ~ p {
+    background-color: green;
+  }
+  :is(section > a)[href$="pdf"] + p {
+    background-color: red;
+  }
+  :is(section > form > ul) li:nth-last-child(-n + 3)::after {
+    content: "EXCLUSIVE!";
+    margin-left: 5px;
+    color: red;
+  }
+  :is(section > input):not([type="number"]) + p {
+    background-color: gray;
+  }
